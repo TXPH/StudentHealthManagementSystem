@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OperatePanel</class>
+ <widget class="QDialog" name="OperatePanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1022</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="add_date">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>60</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加日期</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_student">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>150</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加学生信息</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Date">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tables">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>831</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>班级</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>性别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>学号</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>体温</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>核酸结果</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>68</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>日期</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_student">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>250</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除学生信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="search">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>20</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Export">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>340</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导出EXCEL</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
